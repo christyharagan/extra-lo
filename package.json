@@ -1,0 +1,36 @@
+{
+  "name": "extra-lo",
+  "version": "0.1.0",
+  "description": "Extra bits for lo-dash",
+  "license": "MIT",
+  "repository": "christyharagan/extra-lo",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "utilities",
+    "lodash"
+  ],
+  "dependencies": {
+    "lodash": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.0.0",
+    "jsdoc-to-markdown": "~0.5.9",
+    "gulp": "~3.8.8",
+    "gulp-util": "~3.0.1"
+  },
+  "main": "lib/index.js"
+}
